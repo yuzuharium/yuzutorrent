@@ -1,0 +1,70 @@
+.button {
+    cursor: pointer;
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+}
+
+#download {
+    background-color: #008CBA;
+    color: white;
+    transition: all 0.5s;
+}
+
+#download span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#download span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#download:hover span {
+    padding-right: 25px;
+}
+
+#download:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+li.task {
+    list-style-type: none;
+    height: 40px;
+    background-color: #e7e7e7;
+    border-left: 8px solid #008CBA;
+    color: #008CBA;
+    margin: 2em 2em;
+    padding: 2em;
+    margin-left: 0px;
+}
+
+li .done {
+    background-color: #008CBA;
+}
+
+.task-list {
+    width: 100%;
+}
+
+.progress-bar {
+    position: relative;
+    bottom: 10px;
+    height: 5px;
+    width: 0%;
+    background-color: #008CBA;
+    transition: width 0.1s ease-in-out;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "YuzuTorrent",
+  "version": "1.0.0",
+  "description": "torrent client with power of Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/yuzuharium/yuzutorrent",
+  "keywords": [
+    "Electron",
+    "Torrent",
+    "downloader"
+  ],
+  "author": "yuzuharium",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "webtorrent": "^0.98.8"
+  }
+}
