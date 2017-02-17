@@ -52,7 +52,7 @@ li.task {
     margin-left: 0px;
 }
 
-li .done {
+li.done {
     background-color: #008CBA;
 }
 

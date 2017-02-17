@@ -30,8 +30,7 @@ var addSlot = function(file, dir){
         $progressBar.style.width = percent + '%'
     })
     yuzuTorrent.setWhenDownloaded(function(){
-        $task.style.backgroundColor = '#008CBA'
-        console.log('done!')
+        $task.classList.add('done')
     })
     yuzuTorrent.download()
 
