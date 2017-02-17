@@ -1,5 +1,7 @@
 # YuzuTorrent
 
+**開発は終了しました!**
+
 YuzuTorrent is a torrent client written in JavaScript.
 
 You can write your own plugins very easily.
